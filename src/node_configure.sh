@@ -37,9 +37,7 @@ fi
 
 check_msg "Checking for installation of handlebars in npm"
 
-check_g_handlebars=$(npm list handlebars -g | grep handlebars)
-check_l_handlebars=$(npm list handlebars | grep handlebars)
-check_handlebars=$check_g_handlebars$check_l_handlebars
+check_handlebars=$(npm list handlebars | grep handlebars)
 
 if [[ ${#check_handlebars} -gt 0 ]]; then
 	printf "\e[32mok\e[0m\n"
@@ -47,8 +45,8 @@ else
 
 	printf "\e[31mfailed\e[0m\n"
 	install_msg "Couldn't locate npm package \"handlebars\"."
-	check_msg "Installing in node package \"handlebars\" in global directory"
-	npm install handlebars -g &> /dev/null
+	check_msg "Installing in node package \"handlebars\" in local directory"
+	npm install handlebars &> /dev/null
 	installation_hb=$(npm list handlebars -g | grep handlebars)
 
 	if [[ ${#installation_hb} -gt 0 ]]; then
