@@ -18,5 +18,5 @@ In order to compile new templates, just use `make compile`, this will skip the q
 ## Making your own template ##
 Just make a handlebars template (and remember .handlebars-extension) and put it into the templates directory, and run `make compile`, and woah la!
 
-## Paramaters ##
+## Parameters ##
 *This section is coming, for now just get inspiration from the `aau_signature.handlebars`-template.*
