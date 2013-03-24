@@ -1,3 +1,4 @@
 .DS_store
 signatures/
 node_modules/
+my_autographd.json

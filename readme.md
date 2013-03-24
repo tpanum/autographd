@@ -5,7 +5,7 @@ Currently there are not too many templates, but that's exactly why it's here... 
 
 ## Install ##
 1. Make sure you got Node.js and NPM installed.
-2. Fork [the main autographd project](http://handlebarsjs.com/) *this is required in order to host the images used by your signature, and to store your personal templates*
+2. Fork [the main autographd project](https://github.com/tpanum/autographd) *this is required in order to host the images used by your signature, and to store your personal templates*
 3. After you've pulled your forked copy of autographd, then run `make all`, and autographd will check for dependencies and guide you through the process.
 4. When you've finished step 3, autographd will have created a directory named "signatures", which is your compiled signature.
 5. Yeah, this is really it!
