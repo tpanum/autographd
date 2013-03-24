@@ -1,0 +1,13 @@
+<div id="sig" style="min-width: 960px; min-height: 38px; line-height: 18px; margin: 6px 0; padding: 8px; font-family: 'Helvetica', Verdana, Arial, Sans-Serif; font-size: 12px; color: #999999; " >
+		<a href="http://aau.dk" title="aau.dk"><img src="http://i50.tinypic.com/6thglv.png" alt="{{organization}}" style="float: left; padding: 2px 10px 8px 0; border: none; border-right: 1px solid #999999; margin: 0 12px 0 0;"></a>
+		<div style="padding: 2px 0 0 0">
+			<span style="font-size:13px color: #666666;">{{fullname}}{{#if position}}, {{position}}{{/if}}</span>
+			<br />
+			<a href="http://cs.aau.dk" title="cs.aau.dk" style="font-size: 11px; color: #999999; text-decoration: none;">{{#if department}}{{department}} &mdash; {{/if}}{{organization}}</a>
+		<div style="border-top: 1px solid #999999; margin-top:5px; width: 220px; margin-left:44px; position:relative;">
+			<div style="position:absolute; top:-9px; left:100%; margin-left:10px; width:100%;">
+				{{#if github}}<a style="float:left; color: #999999; text-decoration: none; margin-right:10px;" href="http://github.com/{{github}}"><div style="width:16px; height:16px; background-image:url('github.png'); float:left; margin-right:4px;"></div>@{{github}}</a>{{/if}}
+				{{#if twitter}}<a style="float:left; color: #999999; text-decoration: none;" href="http://twitter.com/{{twitter}}"><div style="width:16px; height:13px; background-image:url('twitter_sign.png'); float:left; margin-right:4px; margin-top:2px;"></div>@{{twitter}}</a>{{/if}}
+			</div>
+		</div>
+</div>
