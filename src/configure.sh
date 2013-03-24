@@ -11,13 +11,15 @@ printf "                       |___/          |_|                \n\n\e[0m"
 
 github=("What's the username of your GitHub account?")
 fullname=("What is your fullname?")
-organization=("What is your organization?")
-logo=("What is the filename of logo you want in your signature?")
+organization=("What organization are you a part of?")
+orglink=("What the URL to the website of your organization?")
+logo=("What's the filename of logo you want in your signature?")
 position=("What's your position?")
-department=("What's the name of that department?")
+department=("What's the name of the department?")
+departlink=("What's the URL of the department's website?")
 twitter=("What's the username of your Twitter account?")
 
-params=(fullname organization position department github twitter logo)
+params=(fullname organization orglink position department departlink github twitter logo)
 
 json_args=""
 
